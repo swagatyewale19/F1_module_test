@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+/* .maincontainer{
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    margin: auto;
+
+} */
+
+.navbar{
+    box-sizing: border-box;
+    
+    position: fixed;
+    width: 100%;
+    height: 87px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #000000;
+    
+}
+
+.navbar .nav{
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    height: 87px;
+    
+}
+
+.navbar .nav .nav-left{
+    width: 173px;
+    height: 29px;
+    left: 38px;
+    top: 29px;
+    color: white;
+}
+
+.nav-right a{
+    color: white;
+    text-decoration: none;
+    padding: 0%;
+    margin: auto;
+    
+}
+
+.headline{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%; 
+    position: relative;
+    width: 1728px;
+    height: 1030px;
+    top: 87px;
+    margin: 0 auto;
+
+  
+    
+    
+}
+.headline .headline-l{
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* width: 1050px;
+    height: 745px;
+    left: 96px;
+    top: 329px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 242px;
+    color: #FFFFFF;
+    animation-name: scale;
+    animation-duration: 5s;
+    
+
+}
+@keyframes scale{
+    0% {
+        transform: scaleX(0);
+    }
+    50% {
+        transform: scaleX(2);
+    }
+    75% {
+        transform: scaleX(1);
+    }
+    100% {
+        transform: scaleX(0);
+    }
+}
+
+.headline .headline-r{
+    position: absolute;
+    width: 734px;
+    height: 395px;
+    left: 994px;
+    top: 602px;
+
+}
+
+.about-us{
+    display: flex;
+    justify-content: center;
+}
+
+.about-us-l{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 572px;
+    height: 726px;
+    left: 89px;
+    top: 1353px;
+}
+
+.about-us-r{
+    position: absolute;
+    width: 912px;
+    height: 225px;
+    left: 747px;
+    top: 1352px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    color: #000000;
+}
+
+.about-us-r p{
+    /* position: absolute;
+    width: 912px;
+    height: 546px;
+    left: 747px;
+    top: 1525px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+.our-services{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: absolute;
+    width: 912px;
+    height: 160px;
+    left: 82px;
+    top: 2251px;
+    font-family: Inter;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 121px;
+    letter-spacing: 0em;
+    color: black;
+}
+.our-services .service-1{
+   
+    display: flex;
+    justify-content: space-between;
+    width: 599px;
+    height: 423px;
+    left: 126px;
+    top: 2509px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+.our-services .service-1 p{
+    
+    border: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    width: 510px;
+height: 254px;
+
+color: #000000;
+}
+
+footer {
+    position: absolute;
+    width: 1728px;
+    height: 1030px;
+    left: 0px;
+    top: 3213px;
+    
+    background: #000000;
+}
+footer h1{
+    /* position: absolute;
+    width: 692.27px;
+    height: 144px;
+    left: 518px;
+    top: 3314px; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    
+    color: #FFFFFF;
+
+}
+
+footer .contact-us .Input{
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1372px;
+    height: 72px;
+    border: 1px solid #FFFFFF;
+}
+
+footer .contact-us .submit{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding: 5px auto;
+  background-color: #FFFFFF;
+  color: #000000;
+
+}
